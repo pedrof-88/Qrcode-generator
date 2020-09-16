@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QrCode Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="qrcode"></div></br>
+  <div class="cores">
+    <label for="">FUNDO</label>
+    <input type="color" name="" id="fundo" value="#FFFFFF">
+    <label for="">CONTRASTE</label>
+    <input type="color" name="" id="contraste">
+  </div>
+  <div class="link">
+    <label for="">URL</label>
+    <input type="text" name="" id="url">
+    <button onclick="gerarQRCode()">Gerar QRCode</button>
+  </div>
+  <a href="" download="qrcode.png" id="download">BAIXAR QRCODE</a>
+  <script src="qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
